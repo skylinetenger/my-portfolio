@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Navbar extends Component {
   state = {
@@ -37,14 +38,18 @@ class Navbar extends Component {
                 this.state.isShow ? "nav-item show current" : "nav-item"
               }
             >
-              <a href="/" className="nav-link">
+              <Link to={"/"} onClick={this.toggleMenu} className="nav-link">
                 Home
-              </a>
+              </Link>
             </li>
             <li className={this.state.isShow ? "nav-item show" : "nav-item"}>
-              <a href="/about" className="nav-link">
+              <Link
+                to={"/about"}
+                onClick={this.toggleMenu}
+                className="nav-link"
+              >
                 About
-              </a>
+              </Link>
             </li>
             <li className={this.state.isShow ? "nav-item show" : "nav-item"}>
               <a href="/work" className="nav-link">
