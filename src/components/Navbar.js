@@ -32,7 +32,11 @@ class Navbar extends Component {
             <div className="portrait" />
           </div>
           <ul className={this.state.isShow ? "menu-nav show" : "menu-nav"}>
-            <li className={this.state.isShow ? "nav-item show" : "nav-item"}>
+            <li
+              className={
+                this.state.isShow ? "nav-item show current" : "nav-item"
+              }
+            >
               <a href="/" className="nav-link">
                 Home
               </a>
@@ -44,7 +48,7 @@ class Navbar extends Component {
             </li>
             <li className={this.state.isShow ? "nav-item show" : "nav-item"}>
               <a href="/work" className="nav-link">
-                Work
+                My Work
               </a>
             </li>
             <li className={this.state.isShow ? "nav-item show" : "nav-item"}>
