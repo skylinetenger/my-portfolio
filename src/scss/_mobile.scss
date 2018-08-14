@@ -66,6 +66,10 @@
   .project {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .boxes div {
+    font-size: 1.5rem !important;
+  }
 }
 
 //Smartphones
@@ -77,5 +81,9 @@
 
   .project {
     grid-template-columns: 1fr;
+  }
+
+  .boxes div {
+    font-size: 1rem !important;
   }
 }
