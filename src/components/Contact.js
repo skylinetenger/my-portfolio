@@ -17,8 +17,8 @@ class Contact extends Component {
             <span className="text-secondary">Phone: </span> (+976)86602215
           </div>
           <div>
-            <span className="text-secondary">Address: </span> BZ District 14th
-            Khoroo 81th Apt, UB, MN
+            <span className="text-secondary">Address: </span> 
+            MN, UB, Bayanzurkh District, khoroo#14, Apt 81A-13
           </div>
         </div>
       </main>
