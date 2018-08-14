@@ -12,17 +12,40 @@ class Home extends Component {
           Web Developer, Front-End & Software Engineer
         </h2>
         <div className="icons">
-          <a href="#!">
+          <a
+            href="https://twitter.com/skyline_mn11"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fa fa-twitter fa-2x" />
           </a>
-          <a href="#!">
+          <a
+            href="https://www.facebook.com/sKyLiNe.mN"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fa fa-facebook fa-2x" />
           </a>
-          <a href="#!">
+          <a
+            href="https://www.linkedin.com/in/gankhuyag-munkhtenger-571725b8/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fa fa-linkedin fa-2x" />
           </a>
-          <a href="#!">
+          <a
+            href="https://github.com/skylinetenger"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fa fa-github fa-2x" />
+          </a>
+          <a
+            href="https://bitbucket.org/tenger11/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fa fa-bitbucket fa-2x" />
           </a>
         </div>
       </main>
