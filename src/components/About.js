@@ -8,7 +8,7 @@ class About extends Component {
         <h1 className="lg-heading">
           About <span className="text-secondary">Me</span>
         </h1>
-        <h2>Let me tell you few things...</h2>
+        <h2 class="sm-heading">Let me tell you few things...</h2>
         <div className="about-info">
           <img src={portrait} alt="John Doe" className="bio-image" />
 

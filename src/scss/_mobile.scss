@@ -1,9 +1,15 @@
 //Widescreens
 @include mediaXL {
+  .project {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 //Desktop & Laptops
 @include mediaLg {
+  .project {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 //Tablets & Small Laptops
@@ -56,6 +62,10 @@
       "job3";
     grid-template-columns: 1fr;
   }
+
+  .project {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 //Smartphones
@@ -63,5 +73,9 @@
   main#home h1 {
     margin-top: 10vh;
     font-size: 50px !important;
+  }
+
+  .project {
+    grid-template-columns: 1fr;
   }
 }
