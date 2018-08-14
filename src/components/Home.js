@@ -6,7 +6,7 @@ class Home extends Component {
     return (
       <main id="home">
         <h1 className="lg-heading">
-          Munkhtenger <span className="text-secondary">Ganhkuyag</span>
+          John <span className="text-secondary">Doe</span>
         </h1>
         <h2 className="sm-heading">Web Developer, Programmer & Designer</h2>
         <div className="icons">

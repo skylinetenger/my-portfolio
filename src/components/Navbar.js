@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 class Navbar extends Component {
   state = {
@@ -13,59 +14,57 @@ class Navbar extends Component {
   };
 
   render() {
+    const menuBtn = "menu-btn".concat(this.state.isShow ? " close" : "");
+    const menu = "menu".concat(this.state.isShow ? " show" : "");
+    const menuBrand = "menu-branding".concat(this.state.isShow ? " show" : "");
+    const menuNav = "menu-nav".concat(this.state.isShow ? " show" : "");
+    const navItem = "nav-item".concat(this.state.isShow ? " show" : "");
+    const menus = [
+      { route: "/", name: "Home" },
+      { route: "/about", name: "About" },
+      { route: "/work", name: "My Work" },
+      { route: "/contact", name: "How To Reach Me" }
+    ];
     return (
       <header>
-        <div
-          className={this.state.isShow ? "menu-btn close" : "menu-btn"}
-          onClick={this.toggleMenu}
-        >
+        <div className={menuBtn} onClick={this.toggleMenu}>
           <div className="btn-line" />
           <div className="btn-line" />
           <div className="btn-line" />
         </div>
 
-        <nav className={this.state.isShow ? "menu show" : "menu"}>
-          <div
-            className={
-              this.state.isShow ? "menu-branding show" : "menu-branding"
-            }
-          >
+        <nav className={menu}>
+          <div className={menuBrand}>
             <div className="portrait" />
           </div>
-          <ul className={this.state.isShow ? "menu-nav show" : "menu-nav"}>
-            <li
-              className={
-                this.state.isShow ? "nav-item show current" : "nav-item"
-              }
-            >
-              <Link to={"/"} onClick={this.toggleMenu} className="nav-link">
-                Home
-              </Link>
-            </li>
-            <li className={this.state.isShow ? "nav-item show" : "nav-item"}>
-              <Link
-                to={"/about"}
-                onClick={this.toggleMenu}
-                className="nav-link"
+          <ul className={menuNav}>
+            {menus.map((m, i) => (
+              <li
+                className={navItem.concat(
+                  this.context.router.route.location.pathname === m.route
+                    ? " current"
+                    : ""
+                )}
+                key={i}
               >
-                About
-              </Link>
-            </li>
-            <li className={this.state.isShow ? "nav-item show" : "nav-item"}>
-              <a href="/work" className="nav-link">
-                My Work
-              </a>
-            </li>
-            <li className={this.state.isShow ? "nav-item show" : "nav-item"}>
-              <a href="/contact" className="nav-link">
-                How To Reach Me
-              </a>
-            </li>
+                <Link
+                  to={m.route}
+                  onClick={this.toggleMenu}
+                  className="nav-link"
+                >
+                  {m.name}
+                </Link>
+              </li>
+            ))}
           </ul>
         </nav>
       </header>
     );
   }
 }
+
+Navbar.contextTypes = {
+  router: PropTypes.object
+};
 
 export default Navbar;
