@@ -17,33 +17,37 @@ class About extends Component {
             <p>
               This is Munkhtenger Gankhuyag's portfolio and I'm currently
               working as a Web Developer. Here is list of About Me:
-              <li>Programming & Coding</li>
-              <li>My Favorite is Javascript (React) since 2017</li>
-              <li>Love to build new UI/UX</li>
+              <li>Highly motivated in Programming & Coding</li>
+              <li>My Favorite is Javascript (React)</li>
+              <li>Passionate in UI/UX design</li>
               <li>Interest in Gaming</li>
             </p>
           </div>
           <div className="job job-1">
-            <h3>Bangalore University, IN</h3>
+            <h3>GTNMGL LLC, UB, MN</h3>
             <div className="job-detail">
-              <h6 className="left-job">
-                Bachelor of Computer Application, Bangalore, Karnataka
-              </h6>
-              <h6 className="right-job">Jul 2012 to May 2015</h6>
+              <h6 className="left-job">Web Developer</h6>
+              <h6 className="right-job">Sep 2017 to Aug 2018</h6>
             </div>
-            <h3>Arena Multimedia & Animation, IN</h3>
-            <div className="job-detail">
-              <h6 className="left-job">
-                Web Design Full Course, Bangalore, Karnataka
-              </h6>
-              <h6 className="right-job">Feb 2015</h6>
-            </div>
-            <h3>RJS Technologies, IN</h3>
-            <div className="job-detail">
-              <h6 className="left-job">
-                Java & Android Academic Course, Bangalore, Karnataka
-              </h6>
-              <h6 className="right-job">Dec 2014</h6>
+            <div>
+              My duties at GTNMGL was to design UI/UX, maintain existing web
+              (Spring MVC) app, which is educational video content management
+              application for GMAT MATH EXAM. I was responsible for website
+              updates, fixes & bugs, API integration, translate design to UI,
+              some AWS DevOps, commandline interface tools and configure Apache
+              & Tomcat servers. My accomplishments include design new feature,
+              optimized website speed performance, creation of responsive
+              website layouts and upgraded AWS (EC2) Centos OS version,
+              configuration of Apache Tomcat server and api co-registration with
+              similar website. Visit the link below to see live app.
+              <br />
+              <a href="https://www.mathrevolution.com/">Mathrevolution</a>
+              <ul>
+                <li>Java, Spring MVC, MySql.</li>
+                <li>HTML, CSS, Javascript (JQuery), Google Analythics.</li>
+                <li>Git, Bitbucket.</li>
+                <li>AWS, CI, SSH, Apache & Tomcat.</li>
+              </ul>
             </div>
           </div>
           <div className="job job-2">
@@ -71,30 +75,26 @@ class About extends Component {
             </div>
           </div>
           <div className="job job-3">
-            <h3>GTNMGL LLC, UB, MN</h3>
+            <h3>Bangalore University, IN</h3>
             <div className="job-detail">
-              <h6 className="left-job">Web Developer</h6>
-              <h6 className="right-job">Sep 2017 to Aug 2018</h6>
+              <h6 className="left-job">
+                Bachelor of Computer Application, Bangalore, Karnataka
+              </h6>
+              <h6 className="right-job">Jul 2012 to May 2015</h6>
             </div>
-            <div>
-              My duties at GTNMGL was to design UI/UX, maintain existing web
-              (Spring MVC) app, which is educational video content management
-              application for GMAT MATH EXAM. I was responsible for website
-              updates, fixes & bugs, API integration, translate design to UI,
-              some AWS DevOps, commandline interface tools and configure Apache
-              & Tomcat servers. My accomplishments include design new feature,
-              optimized website speed performance, creation of responsive
-              website layouts and upgraded AWS (EC2) Centos OS version,
-              configuration of Apache Tomcat server and api co-registration with
-              similar website. Visit the link below to see live app.
-              <br />
-              <a href="https://www.mathrevolution.com/">Mathrevolution</a>
-              <ul>
-                <li>Java, Spring MVC, MySql.</li>
-                <li>HTML, CSS, Javascript (JQuery), Google Analythics.</li>
-                <li>Git, Bitbucket.</li>
-                <li>AWS, CI, SSH, Apache & Tomcat.</li>
-              </ul>
+            <h3>Arena Multimedia & Animation, IN</h3>
+            <div className="job-detail">
+              <h6 className="left-job">
+                Web Design Full Course, Bangalore, Karnataka
+              </h6>
+              <h6 className="right-job">Feb 2015</h6>
+            </div>
+            <h3>RJS Technologies, IN</h3>
+            <div className="job-detail">
+              <h6 className="left-job">
+                Java & Android Academic Course, Bangalore, Karnataka
+              </h6>
+              <h6 className="right-job">Dec 2014</h6>
             </div>
           </div>
         </div>
