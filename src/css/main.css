@@ -24,7 +24,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: 1;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -43,19 +43,21 @@
     background: #346061;
     list-style: none;
     transform: translate3d(0, -100%, 0);
-    transition: all 0.5s ease-out; }
+    transition: all 0.5s ease-out;
+    opacity: 0.9; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
     background: #3d7072;
     transition: all 0.5s ease-out;
-    transform: translate3d(0, 100%, 0); }
+    transform: translate3d(0, 100%, 0);
+    opacity: 0.97; }
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url(../img/portrait.jpg);
+      background: url(../img/portrait_md.jpg);
       border-radius: 50%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
@@ -170,6 +172,8 @@ main {
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
+    .about-info .bio p {
+      list-style: none; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -180,6 +184,9 @@ main {
     background: #468083;
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
+    .about-info .job .job-detail {
+      display: flex;
+      justify-content: space-between; }
 
 .project {
   display: grid;
@@ -269,7 +276,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url(../img/portrait_small.jpg);
+      background: url(../img/portrait_sm.jpg);
       width: 150px;
       height: 150px; }
   .about-info {

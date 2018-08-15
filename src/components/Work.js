@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import project1 from "../img/projects/project1.jpg";
-import project2 from "../img/projects/project2.jpg";
-import project3 from "../img/projects/project3.jpg";
-import project4 from "../img/projects/project4.jpg";
-import project5 from "../img/projects/project5.jpg";
+import project1 from "../img/projects/math_revo.jpg";
+import project2 from "../img/projects/react.jpg";
+import project3 from "../img/projects/ember.jpg";
+import project4 from "../img/projects/mern.jpg";
 
 class Work extends Component {
   render() {
@@ -15,62 +14,99 @@ class Work extends Component {
         <h2 className="sm-heading">Check out some of my projects...</h2>
         <div className="project">
           <div className="item">
-            <a href="#!">
+            <a
+              href="https://www.mathrevolution.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={project1} alt="Project" />
             </a>
-            <a href="#!" className="btn-light">
+            <a
+              href="https://www.mathrevolution.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-light"
+            >
               <i className="fa fa-eye" />
               Project
             </a>
             <a href="#!" className="btn-dark">
-              <i className="fa fa-github">Github</i>
+              Not Available
             </a>
           </div>
           <div className="item">
-            <a href="#!">
+            <a
+              href="http://test.react-front-to-back.surge.sh/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={project2} alt="Project" />
             </a>
-            <a href="#!" className="btn-light">
+            <a
+              href="http://test.react-front-to-back.surge.sh/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-light"
+            >
               <i className="fa fa-eye" />
               Project
             </a>
-            <a href="#!" className="btn-dark">
-              <i className="fa fa-github">Github</i>
+            <a
+              href="https://bitbucket.org/tenger11/testoffrontend"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-dark"
+            >
+              <i className="fa fa-bitbucket"> Bitbucket</i>
             </a>
           </div>
           <div className="item">
-            <a href="#!">
+            <a
+              href="http://torpid-table.surge.sh"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={project3} alt="Project" />
             </a>
-            <a href="#!" className="btn-light">
+            <a
+              href="http://torpid-table.surge.sh"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-light"
+            >
               <i className="fa fa-eye" />
               Project
             </a>
-            <a href="#!" className="btn-dark">
-              <i className="fa fa-github">Github</i>
+            <a
+              href="https://bitbucket.org/tenger11/ember"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-dark"
+            >
+              <i className="fa fa-bitbucket"> Bitbucket</i>
             </a>
           </div>
           <div className="item">
-            <a href="#!">
+            <a
+              href="https://sheltered-spire-92924.herokuapp.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={project4} alt="Project" />
             </a>
-            <a href="#!" className="btn-light">
+            <a
+              href="https://sheltered-spire-92924.herokuapp.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-light"
+            >
               <i className="fa fa-eye" />
               Project
             </a>
-            <a href="#!" className="btn-dark">
-              <i className="fa fa-github">Github</i>
-            </a>
-          </div>
-          <div className="item">
-            <a href="#!">
-              <img src={project5} alt="Project" />
-            </a>
-            <a href="#!" className="btn-light">
-              <i className="fa fa-eye" />
-              Project
-            </a>
-            <a href="#!" className="btn-dark">
+            <a
+              href="https://dashboard.heroku.com/apps/sheltered-spire-92924"
+              className="btn-dark"
+            >
               <i className="fa fa-github">Github</i>
             </a>
           </div>

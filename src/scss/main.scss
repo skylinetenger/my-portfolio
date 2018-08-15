@@ -92,6 +92,10 @@ main {
   .bio {
     grid-area: bio;
     font-size: 1.5rem;
+
+    p {
+      list-style: none;
+    }
   }
 
   .job-1 {
@@ -108,6 +112,11 @@ main {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
+
+    .job-detail {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 }
 
