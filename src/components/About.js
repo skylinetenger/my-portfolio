@@ -38,15 +38,15 @@ class About extends Component {
               & Tomcat servers. My accomplishments include design new feature,
               optimized website speed performance, creation of responsive
               website layouts and upgraded AWS (EC2) Centos OS version,
-              configuration of Apache Tomcat server and api co-registration with
-              similar website. Visit the link below to see live app.
+              configuration of Apache Tomcat server and API integration with
+              third-party application. Visit the link below to see live app.
               <br />
               <a href="https://www.mathrevolution.com/">Mathrevolution</a>
               <ul>
                 <li>Java, Spring MVC, MySql.</li>
                 <li>HTML, CSS, Javascript (JQuery), Google Analythics.</li>
-                <li>Git, Bitbucket.</li>
                 <li>AWS, CI, SSH, Apache & Tomcat.</li>
+                <li>Git & Bitbucket.</li>
               </ul>
             </div>
           </div>
@@ -58,10 +58,10 @@ class About extends Component {
             </div>
             <div>
               I was in the team that was responsible for build and maintain a
-              Windows Winforms application, which is a registration of
-              pharmacies medical management software. My responsibilities
-              included initial planning and managing project, data structure and
-              designing the feature. <br />
+              Windows Winforms application, which is a medical registration of
+              pharmacy management software. My responsibilities included initial
+              planning and managing project, data structure and designing the
+              feature. <br />
               Later I joined another project, which is web based internal
               communication platform of government agencies. I was responsible
               for initial research, coding and designing a UI/UX.
@@ -70,7 +70,7 @@ class About extends Component {
                 <li>ASP.NET, MVC.</li>
                 <li>MySQL & Microsoft SQL SERVER.</li>
                 <li>HTML, CSS, Javascript (JQuery).</li>
-                <li>Git, Bitbucket.</li>
+                <li>Git & Bitbucket.</li>
               </ul>
             </div>
           </div>
