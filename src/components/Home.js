@@ -9,7 +9,7 @@ class Home extends Component {
           Munkhtenger <span className="text-secondary">Gankhuyag</span>
         </h1>
         <h2 className="sm-heading">
-          Web Developer, Front-End & Software Engineer
+          Web Developer, Back-End & Front-End Developer
         </h2>
         <div className="icons">
           <a

@@ -18,35 +18,30 @@ class About extends Component {
               This is Munkhtenger Gankhuyag's portfolio and I'm currently
               working as a Web Developer. Here is list of About Me:
               <li>Highly motivated in Programming & Coding</li>
-              <li>My Favorite is Javascript (React)</li>
-              <li>Passionate in UI/UX design</li>
-              <li>Interest in Gaming</li>
+              <li>My Major is a Java and Spring Framework</li>
+              <li>Solid experience in MVC, OOP design patterns.</li>
+              <li>Enjoy E-sports.</li>
             </p>
           </div>
           <div className="job job-1">
             <h3>GTNMGL LLC, UB, MN</h3>
             <div className="job-detail">
               <h6 className="left-job">Web Developer</h6>
-              <h6 className="right-job">Sep 2017 to Aug 2018</h6>
+              <h6 className="right-job">Sep 2017 to Jul 2019</h6>
             </div>
             <div>
-              My duties at GTNMGL was to design UI/UX, maintain existing web
-              (Spring MVC) app, which is educational video content management
-              application for GMAT MATH EXAM. I was responsible for website
-              updates, fixes & bugs, API integration, translate design to UI,
-              some AWS DevOps, commandline interface tools and configure Apache
-              & Tomcat servers. My accomplishments include design new feature,
-              optimized website speed performance, creation of responsive
-              website layouts and upgraded AWS (EC2) Centos OS version,
-              configuration of Apache Tomcat server and API integration with
-              third-party application. Visit the link below to see live app.
+            My duties at GTNMGL was to design UI, maintaining existing web (Spring MVC) app, which is educational video content management app. 
+            I was responsible for maintenance, API integration, translate design to UI, configuring services (CLI). 
+            My accomplishments include designed new feature, optimization of page speed & performance, creation of responsive web layouts.
+            Later assigned me to project called ‘Rent Car Solution’. 
+            I led the team with 3 members. My role was to set up an initial plan, scheduling appropriate work for teammates, assisting with codes etc.
               <br />
-              <a href="https://www.mathrevolution.com/">Mathrevolution</a>
+              Notable accomplishments:
               <ul>
-                <li>Java, Spring MVC, MySql.</li>
-                <li>HTML, CSS, Javascript (JQuery), Google Analythics.</li>
-                <li>AWS, CI, SSH, Apache & Tomcat.</li>
-                <li>Git & Bitbucket.</li>
+                <li>Single handedly developed back to front according to plan and requirements within a short amount of time.</li>
+                <li>Setting up production server environments and configurations including apache & tomcat etc. </li>
+                <li>After completion of the first batch plan, I went on appointment in Korea with a coworker. It was an excellent experience for both my team and me.</li>
+                <li>Received ‘Best employee of the year’ award in 2018.</li>
               </ul>
             </div>
           </div>
@@ -57,14 +52,10 @@ class About extends Component {
               <h6 className="right-job">Aug 2015 to Sep 2017</h6>
             </div>
             <div>
-              I was in the team that was responsible for build and maintain a
-              Windows Winforms application, which is a medical registration of
-              pharmacy management software. My responsibilities included initial
-              planning and managing project, data structure and designing the
-              feature. <br />
-              Later I joined another project, which is web based internal
-              communication platform of government agencies. I was responsible
-              for initial research, coding and designing a UI/UX.
+            I was in the team that was responsible for creating a new ‘Pharmacy Registration’ app. 
+            My responsibilities included team meets, initial planning and managing projects, data structure and designing the feature. 
+            Later I joined another project, which is a web based internal communication platform of government agencies. 
+            I was responsible for initial research, coding and designing a UI.
               <ul>
                 <li>C# and Dev express Component (WinForms).</li>
                 <li>ASP.NET, MVC.</li>

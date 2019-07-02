@@ -3,6 +3,8 @@ import project1 from "../img/projects/math_revo.jpg";
 import project2 from "../img/projects/react.jpg";
 import project3 from "../img/projects/ember.jpg";
 import project4 from "../img/projects/mern.jpg";
+import project5 from "../img/projects/rentcar.jpg";
+import project6 from "../img/projects/fxfinal.jpg";
 
 class Work extends Component {
   render() {
@@ -13,6 +15,48 @@ class Work extends Component {
         </h1>
         <h2 className="sm-heading">Check out some of my projects...</h2>
         <div className="project">
+          <div className="item">
+            <a
+              href="http://www.fxfinal.co.kr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={project6} width="100" alt="Project" />
+            </a>
+            <a
+              href="http://www.fxfinal.co.kr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-light"
+            >
+              <i className="fa fa-eye" />
+              Project
+            </a>
+            <a href="#!" className="btn-dark">
+              Not Available
+            </a>
+          </div>
+          <div className="item">
+            <a
+              href="http://tc.tagoplus.co.kr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={project5} width="100" alt="Project" />
+            </a>
+            <a
+              href="http://tc.tagoplus.co.kr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-light"
+            >
+              <i className="fa fa-eye" />
+              Project
+            </a>
+            <a href="#!" className="btn-dark">
+              Not Available
+            </a>
+          </div>
           <div className="item">
             <a
               href="https://www.mathrevolution.com/"
@@ -110,6 +154,7 @@ class Work extends Component {
               <i className="fa fa-github">Github</i>
             </a>
           </div>
+          
         </div>
       </main>
     );
